@@ -17,7 +17,7 @@ Variations:
     List - Show the users a list of all local gyms 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## A/B Test Name  
+## A/B Joshua Klemm
 **Rate a Climb: Inline Bar vs. Separate Rating Screen | US4 – Engagement**
 
 ### Hypothesis  
