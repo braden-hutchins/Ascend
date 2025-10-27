@@ -27,7 +27,7 @@ and will be used to measure user experience and growth across sprints.
 - **Definition:** Unique users who generate any active event in a day.  
 - **Events:** `app_open`, `start_session`, `log_attempt`, `end_session`
 - **How to collect:**  
-  - Firebase/BigQuery daily count of distinct `user_id` where event_name in the list above.
+  - Firebase daily count of distinct `user_id` where event_name in the list above.
 
 ### 4. **Retention with daily and weekly logging**
 - **Definition:** Measures how often users return after first use.  
