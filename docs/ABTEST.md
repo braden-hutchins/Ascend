@@ -53,3 +53,36 @@ Clicking “Rate” opens a new screen showing:
 - Climb details (grade, setter, gym section, etc.)  
 - Rating scale and optional comment box  
 
+
+
+## Jared Peltier
+Quick Log: Sticky Bottom Bar vs. Floating Action Button | US4 – Engagement
+
+## Hypothesis
+Users will log more climbs and do so faster when the “Log Attempt” button is always visible in a sticky bottom bar compared to being accessed through a floating action button.
+Keeping the main action persistent makes logging attempts more intuitive, leading to higher engagement and a smoother user experience.
+
+## Problem & Impact
+Currently, users may forget or skip logging climbs because the floating button is less visible while navigating the app. This can result in fewer logged attempts.
+This impacts the app’s engagement data and climbers’ ability to accurately track progress. Reducing the number of taps and making the action always visible should encourage consistent climb logging and improve data collection for progress tracking.
+
+## Experiment Setup (Firebase)
+Firebase A/B Testing
+Firebase Analytics
+
+## Audience:
+All users who start a climbing session will be randomly split into two groups:
+Group A (50%) – Sees the sticky “Log Attempt” bar fixed at the bottom of the screen.
+Group B (50%) – Sees the floating “Log Attempt” button (FAB) in its current position.
+
+## Variations
+Variation A – Sticky Bottom Bar
+Users see a persistent bar along the bottom with a clear “Log Attempt” button.
+Always visible during a session
+Reduces steps to log a climb
+Encourages faster, more frequent logging
+
+Variation B – Floating Action Button (FAB)
+Users see the current floating button in the bottom-right corner.
+Requires an additional tap to access logging
+Maintains current UI flow for baseline comparison
