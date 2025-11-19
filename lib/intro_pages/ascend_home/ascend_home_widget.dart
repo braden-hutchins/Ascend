@@ -183,17 +183,8 @@ class _AscendHomeWidgetState extends State<AscendHomeWidget> {
                         Align(
                           alignment: AlignmentDirectional(0.0, 0.0),
                           child: FFButtonWidget(
-                            onPressed: () async {
-                              context.pushNamed(
-                                GymSelectWidget.routeName,
-                                extra: <String, dynamic>{
-                                  kTransitionInfoKey: TransitionInfo(
-                                    hasTransition: true,
-                                    transitionType: PageTransitionType.fade,
-                                    duration: Duration(milliseconds: 0),
-                                  ),
-                                },
-                              );
+                            onPressed: () {
+                              print('Button pressed ...');
                             },
                             text: 'Gym Selection',
                             options: FFButtonOptions(
