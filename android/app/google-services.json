@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "125098535645",
+    "project_id": "ascend-aafr3r",
+    "storage_bucket": "ascend-aafr3r.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125098535645:android:7f2220e5b94fd931460934",
+        "android_client_info": {
+          "package_name": "com.mycompany.ascend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYBQ9tIbXhI9FbnY51mBr55by1NlfnfPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125098535645:android:331bfc744a144108460934",
+        "android_client_info": {
+          "package_name": "com.uricsc305.ascend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYBQ9tIbXhI9FbnY51mBr55by1NlfnfPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
