@@ -157,6 +157,7 @@ class _OnboardingPageWidgetState extends State<OnboardingPageWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 0.0, 16.0),
                           child: FFButtonWidget(
+                            key: ValueKey('Button_juuu'),
                             onPressed: () async {
                               context.pushNamed(
                                 LoginWidget.routeName,

@@ -33,6 +33,8 @@ void main() async {
     await tester.pumpWidget(const MyApp());
     await GoogleFonts.pendingFonts();
 
+    await tester.tap(find.byKey(const ValueKey('Button_juuu')));
+    await tester.pumpAndSettle(const Duration(milliseconds: 3000));
     await tester.enterText(
         find.byKey(const ValueKey('Signup-Email_6bjz')), 'test@uri.edu');
     await tester.enterText(
