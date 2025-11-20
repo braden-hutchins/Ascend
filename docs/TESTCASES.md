@@ -2,8 +2,8 @@
    
    https://docs.google.com/presentation/d/1OuAwHCp6XsF_csSOyH9MbbFcs1MgK_qhJw7MF3YVPck/edit?slide=id.p#slide=id.p US4: {Golden Path description}
    
-    <link to template slide> US2: User Login
+  US2: User Login
+   
+   US3: Backend Management
 
-    <link to template slide> US3: Backend Management
-
-    <link to template slide> US5: …
+ US5: …
